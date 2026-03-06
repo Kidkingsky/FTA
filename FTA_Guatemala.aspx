@@ -357,7 +357,7 @@
                                 <br>
 
                                 <br>
-                                <h2 class="ptie">前言</h2>
+                                <h3 class="ptie">前言</h3>
 
                                 <h3 class="cent-t2">第壹篇：總則</h3>
                                 <p>
@@ -478,7 +478,7 @@
                                 <br>
 
                                 <br>
-                                <h2 class="ptie">前言</h2>
+                                <h3 class="ptie">前言</h3>
 
                                 <h3 class="cent-t2">第壹篇：總則</h3>
                                 <p>
