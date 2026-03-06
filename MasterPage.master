@@ -1,0 +1,656 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FTA.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head runat="server">
+    <meta charset="utf-8">
+    <title>臺灣ECA/FTA總入口網站</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- All Google Fonts used in the project -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@600;700&family=Bree+Serif&family=Marck+Script&family=Noto+Sans+TC:wght@300;500;700&family=Nunito&family=Open+Sans&family=Oswald:wght@300&family=Poppins:wght@600;800&family=Praise&family=Roboto+Condensed&family=Roboto:ital,wght@1,500&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/qna.css" rel="stylesheet">
+
+    <!-- Top Menu CSS  -->
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/0604_topmenu.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/custom-styles.css" />
+
+    <!-- Heading Font Size Fix -->
+    <link rel="stylesheet" type="text/css" href="css/heading-fix.css" />
+
+    <!-- Sitemap Breadcrumb Styles -->
+    <link rel="stylesheet" type="text/css" href="css/sitemap-breadcrumb.css" />
+
+    <style>
+        /* Accesskey skip links (GN1240100E: 描述性文字 + 焦點時可見) */
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            top: -9999px;
+            z-index: 9999;
+            padding: 8px 16px;
+            background: #1b3055;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            border-radius: 0 0 4px 4px;
+            border: 2px solid #ff8a00;
+            white-space: nowrap;
+        }
+
+            .skip-link:focus,
+            .skip-link:active {
+                left: 16px;
+                top: 0;
+                outline: 3px solid #ff8a00;
+                outline-offset: 2px;
+            }
+
+        .menu-skip {
+            padding: 14px 20px;
+        }
+
+        /* 通用焦點樣式 - 為所有可聚焦元素添加高對比邊框 (WCAG CS2240700E) */
+        button:focus,
+        button:focus-visible,
+        a:focus,
+        a:focus-visible,
+        input:focus,
+        input:focus-visible,
+        select:focus,
+        select:focus-visible,
+        textarea:focus,
+        textarea:focus-visible,
+        [tabindex]:focus,
+        [tabindex]:focus-visible,
+        .w3-button:focus,
+        .w3-button:focus-visible,
+        .w3-bar-item:focus,
+        .w3-bar-item:focus-visible {
+            outline: 3px solid #ff8a00 !important;
+            outline-offset: 2px;
+        }
+
+        /* 為帶有 role="button" 的 div 元素添加焦點樣式 */
+        div[role="button"]:focus,
+        div[role="button"]:focus-visible {
+            outline: 3px solid #ff8a00 !important;
+            outline-offset: 2px;
+        }
+
+        /* 導覽選單下拉連結焦點樣式 - 加粗邊框並確保完整顯示 */
+        nav ul ul a:focus,
+        nav ul ul a:focus-visible,
+        nav .sec_k a:focus,
+        nav .sec_k a:focus-visible,
+        nav .sec_c a:focus,
+        nav .sec_c a:focus-visible {
+            outline: 3px solid #ff8a00 !important;
+            outline-offset: -2px;
+            background-color: #fff8e6 !important;
+            position: relative;
+            z-index: 100;
+        }
+
+        /* 確保下拉選單容器不會裁切焦點框線 */
+        nav ul ul,
+        nav .sec_k,
+        nav .sec_c {
+            overflow: visible !important;
+        }
+
+            nav ul ul li,
+            nav .sec_k li {
+                overflow: visible !important;
+            }
+
+        /* 進口貨品通關作業要點連結焦點樣式 */
+        .rd_top:focus,
+        .rd_top:focus-visible,
+        .rd_g:focus,
+        .rd_g:focus-visible,
+        .rd_m:focus,
+        .rd_m:focus-visible {
+            outline: 3px solid #ff8a00 !important;
+            outline-offset: -2px;
+            background-color: #fff8e6 !important;
+            box-shadow: 0 0 0 3px #ff8a00 !important;
+        }
+
+        /* Hero Swiper 按鈕焦點樣式 - 確保四邊完整顯示 */
+        .header-swiper .slide-link:focus,
+        .header-swiper .slide-link:focus-visible,
+        .header-swiper button:focus,
+        .header-swiper button:focus-visible {
+            outline: 3px solid #ff8a00 !important;
+            outline-offset: -3px;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Swiper 分頁和導航按鈕焦點樣式 */
+        .swiper-button-prev:focus,
+        .swiper-button-prev:focus-visible,
+        .swiper-button-next:focus,
+        .swiper-button-next:focus-visible,
+        .swiper-pagination-bullet:focus,
+        .swiper-pagination-bullet:focus-visible {
+            outline: 3px solid #ff8a00 !important;
+            outline-offset: 2px;
+        }
+
+        /* ECA/FTA 簽訂國家卡片焦點樣式 - 加粗邊框並確保不被相鄰卡片遮蓋 */
+        .country-part div[role="button"]:focus,
+        .country-part div[role="button"]:focus-visible,
+        .country-part .col-lg-3:focus,
+        .country-part .col-lg-3:focus-visible {
+            outline: 3px solid #ff8a00 !important;
+            outline-offset: -3px;
+            position: relative;
+            z-index: 10;
+            box-shadow: 0 0 0 3px #ff8a00 !important;
+        }
+
+        /* 確保國家卡片容器不會裁切焦點框線 */
+        .country-part .row {
+            overflow: visible !important;
+        }
+
+        .country-part .team-item {
+            overflow: visible !important;
+        }
+        
+        .menu-button {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .tmenubox {
+                display: block;
+                background-color: #e6f5ff;
+                padding: 0px 20px 3px 27px;
+                color: #1b3055;
+                font-size: 1.25rem;
+                text-decoration: none;
+                border: none;
+                font-weight: bold;
+                line-height: 43px;
+            }
+
+            .menu-button {
+                display: block;
+                float: right;
+            }
+        }
+    </style>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- 跳過區塊連結 - 符合 WCAG 2.4.1 (GN1240100E) -->
+    <div class="skip-links">
+        <a class="skip-link" href="#main-content" id="AC" name="C" accesskey="C">跳至主要內容</a>
+        <a class="skip-link" href="#navigation" id="AU" name="U" accesskey="U">跳至主要導覽</a>
+        <a class="skip-link" href="#contact" id="AZ" name="Z" accesskey="Z">跳至頁尾</a>
+    </div>
+    <form id="form1" runat="server">
+        <div class="container-fluid bg-light p-0">
+        </div>
+
+
+        <!-- Navbar Start -->
+        <nav id="navigation" class="bg-white shadow sticky-top p-0">
+            <div class="ECA-FTA-logo">
+
+                <div class="m-0 text-primary">
+
+                    <a href="Default.aspx" class="navbar-brand d-flex align-items-center px-4 px-lg-5" title="回到首頁">
+
+                        <img src="images/logos/logo-ECA-FTA.svg" width="322" height="64" alt="經濟部自由貿易協定網站標誌">
+                        <span class="visually-hidden">經濟部自由貿易協定網站</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="tmenubox">
+                <label class="menu-button" for="drop" tabindex="0" role="button" aria-expanded="false" aria-controls="main-menu">Menu</label>
+                <input type="checkbox" id="drop" title="展開或收合主選單" />
+                <ul class="menu" id="main-menu">
+                    <li id="a-sec0" class="b_right"><a href="./#nogo1">ECA/FTA簽訂夥伴</a></li>
+                    <li id="a-sec2" class="b_right"><a href="./#nogo2" id="products" class="">背景簡介</a></li>
+                    <li id="a-sec3" class="b_right"><a href="./#nogo22" class="">洽簽成果</a></li>
+                    <li id="a-sec3" class="b_right">
+                        <a href="https://tariffinfo.taiwantrade.com.tw" id="contacts" class="" target="_blank" rel="noreferrer noopener" aria-label="關稅減免速查（另開新視窗）">關稅減免速查</a>
+                    </li>
+
+                    <li class="f_right">
+                        <!-- First Tier Drop Down -->
+                        <a href="#" class="" aria-haspopup="true" aria-expanded="false" role="button" tabindex="0">貨品通關重要資訊</a>
+                        <input type="checkbox" id="drop-2" title="展開或收合貨品通關重要資訊" />
+                        <ul class="sec_c">
+                            <li><a href='https://web.customs.gov.tw/singlehtml/29?cntId=cus1_64879_29' target="_blank" rel="noreferrer noopener" style="color: #000000 !important;" class="noicon" aria-label="Hs code（另開新視窗）">Hs code</a></li>
+                            <li>
+                                <!-- Second Tier Drop Down -->
+                                <label for="drop-3" class="toggle dro-down">貨品通關重要資訊</label>
+                                <a href="#" class="ard">進口貨品通關作業要點</a>
+                                <input type="checkbox" id="drop-3" title="展開或收合進口貨品通關作業要點" />
+                                <ul class="sec_k">
+                                    <li><a href="https://law-out.mof.gov.tw/LawContent.aspx?id=FL028861" target="_blank" rel="noreferrer noopener" class="rd_top" aria-label="臺巴(巴拿馬)（另開新視窗）">臺巴(巴拿馬)</a></li>
+                                    <li><a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL011133&kw=%e8%b2%9d%e9%87%8c%e6%96%af" target="_blank" rel="noreferrer noopener" class="rd_g" aria-label="臺貝(貝里斯)（另開新視窗）">臺貝(貝里斯)</a></li>
+                                    <li><a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL010408" target="_blank" rel="noreferrer noopener" class="rd_g" aria-label="臺巴(巴拉圭)（另開新視窗）">臺巴(巴拉圭)</a></li>
+                                    <li><a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL010550" target="_blank" rel="noreferrer noopener" class="rd_g" aria-label="臺史(史瓦帝尼)（另開新視窗）">臺史(史瓦帝尼)</a></li>
+                                    <li><a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL009620" target="_blank" rel="noreferrer noopener" class="rd_g" aria-label="臺紐(紐西蘭)（另開新視窗）">臺紐(紐西蘭)</a></li>
+                                    <li><a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL009764" target="_blank" rel="noreferrer noopener" class="rd_g" aria-label="臺星(新加坡)（另開新視窗）">臺星(新加坡)</a></li>
+                                    <li><a href="https://law-out.mof.gov.tw/LawContent.aspx?id=FL039792" target="_blank" rel="noreferrer noopener" class="rd_m" aria-label="臺瓜(瓜地馬拉)（另開新視窗）">臺瓜(瓜地馬拉)</a></li>
+                                </ul>
+                            </li>
+                            <li class="navb"><a href="https://web.customs.gov.tw/singlehtml/715" target="_blank" rel="noreferrer noopener" style="color: #000000 !important;" class="noicon vtop" aria-label="原產地證明（另開新視窗）">原產地證明</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="b_right"><a href="https://www.trade.gov.tw/Msg/mail_index.aspx?nodeID=33" target="_blank" rel="noreferrer noopener" id="shop" class="" aria-label="聯絡我們（另開新視窗）">聯絡我們</a></li>
+                    <li id="a-sec5" class="b_right"><a href="./#nogo57" class="">Q&A</a></li>
+                    <li class="b_right"><a href='Default.aspx' class="">首頁</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Content PlaceHolder -->
+        <main role="main">
+            <!-- H1 標題由各頁面自行定義，符合 WCAG 1.3.1 -->
+
+            <!-- Breadcrumb Navigation -->
+            <div class="breadcrumb-container">
+                <div class="breadcrumb-wrapper">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server"
+                        PathSeparator=" &gt; "
+                        RenderCurrentNodeAsLink="false"
+                        SkipLinkText=""
+                        CssClass="sitemap-breadcrumb">
+                        <PathSeparatorTemplate>
+                            <span class="separator">&gt; </span>
+                        </PathSeparatorTemplate>
+                        <CurrentNodeTemplate>
+                            <span class="current-node"><%# Eval("Title") %></span>
+                        </CurrentNodeTemplate>
+                        <NodeTemplate>
+                            <asp:HyperLink ID="HyperLink1" runat="server"
+                                NavigateUrl='<%# Eval("Url") %>'
+                                Text='<%# Eval("Title") %>'>
+                            </asp:HyperLink>
+                        </NodeTemplate>
+                    </asp:SiteMapPath>
+                </div>
+            </div>
+
+            <!-- GN1240102E: 定位點移至 breadcrumb 之後，確保略過巡覽後直達實質內容 -->
+            <div id="main-content" tabindex="-1">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </main>
+
+        <!-- Footer Start -->
+        <footer id="contact" class="container-fluid text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-12">
+                        <div class="k_footerall">
+                            <div class="icon-BOFT footer-text" aria-label="經濟部國際貿易署標誌">
+                                經濟部國際貿易署-<span class="ft-address">100057臺北市中正區湖口街1號</span>
+                                <a href="https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=4092&pid=321805" target="_blank" rel="noreferrer noopener" aria-label="地圖位置（另開新視窗）">
+                                    <img src="images/icons/google-maps.png" width="31" height="31" alt="地圖位置">
+                                </a>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <span class="ft-p-icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                    <span class="number-f k_phone">(02)2351-0271</span>
+                                </li>
+                                <li>
+                                    <span class="ft-p-icon"><i class="fa fa-fax" aria-hidden="true"></i></span>
+                                    <span class="number-f">(02)2351-7080</span>
+                                </li>
+                            </ul>
+
+                            <ul class="k1">
+                                <li>
+                                    <span class="k_fax"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                    <span class="number-f"><a href="https://www.trade.gov.tw/Msg/mail_index.aspx?nodeID=33" target="_blank" rel="noreferrer noopener" aria-label="聯絡我們（另開新視窗）">聯絡我們</a></span>
+                                </li>
+                                <li>
+                                    <span class="k_fax"><i class="fa fa-sitemap" aria-hidden="true"></i></span>
+                                    <span class="number-f"><a href="Sitemap.aspx">網站導覽</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <button type="button" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="返回頁面頂部">
+            <i class="bi bi-arrow-up" aria-hidden="true"></i>
+        </button>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap-submenu.min.js" defer></script>
+        <script src="js/bootstrap-submenu.js" defer></script>
+        <!-- Navigation Enhancements (Keyboard + Smooth Scroll + Anchor Mapping) -->
+        <script src="js/navigation-enhancements.js"></script>
+		<!-- 左側邊欄 Treeview 鍵盤無障礙展開功能 -->
+        <script>
+            (function () {
+                document.addEventListener('DOMContentLoaded', function () {
+                    // 檢查是否有 treeview 元素
+                    var treeviews = document.querySelectorAll('.treeview');
+                    if (treeviews.length === 0) return;
+
+                    // 找到第一層選單項目對應的 checkbox
+                    function findParentCheckbox(leftDiv) {
+                        // 向上找到 label
+                        var label = leftDiv.closest('label');
+                        if (!label) return null;
+
+                        var forAttr = label.getAttribute('for');
+                        if (!forAttr) return null;
+
+                        return document.getElementById(forAttr);
+                    }
+
+                    // 檢查此項目是否有子選單
+                    function hasSubMenu(checkbox) {
+                        if (!checkbox) return false;
+                        var parentLi = checkbox.closest('li');
+                        if (!parentLi) return false;
+
+                        // 檢查 li 內是否有直接子 ul 元素
+                        var childUls = parentLi.children;
+                        for (var i = 0; i < childUls.length; i++) {
+                            if (childUls[i].tagName === 'UL') {
+                                return true;
+                            }
+                        }
+                        return false;
+                    }
+
+                    // 更新子選單項目的 tabindex
+                    function updateSubMenuTabIndex() {
+                        treeviews.forEach(function (treeview) {
+                            var allLis = treeview.querySelectorAll('li');
+                            allLis.forEach(function (li) {
+                                var checkbox = li.querySelector(':scope > input[type="checkbox"]');
+                                if (!checkbox) return;
+
+                                // 找到此 li 內的直接子 ul
+                                var childUls = li.children;
+                                for (var i = 0; i < childUls.length; i++) {
+                                    if (childUls[i].tagName === 'UL') {
+                                        var subItems = childUls[i].querySelectorAll('.left_div');
+                                        subItems.forEach(function (subItem) {
+                                            if (checkbox.checked) {
+                                                subItem.setAttribute('tabindex', '0');
+                                            } else {
+                                                subItem.setAttribute('tabindex', '-1');
+                                            }
+                                        });
+                                    }
+                                }
+                            });
+                        });
+                    }
+
+                    // 初始化時更新所有子選單的 tabindex
+                    updateSubMenuTabIndex();
+
+                    // 使用事件委派處理 focus 事件
+                    document.addEventListener('focusin', function (event) {
+                        var target = event.target;
+                        if (!target.classList.contains('left_div')) return;
+                        if (!target.closest('.treeview')) return;
+
+                        var checkbox = findParentCheckbox(target);
+                        if (checkbox && hasSubMenu(checkbox) && !checkbox.checked) {
+                            checkbox.checked = true;
+                            updateSubMenuTabIndex();
+                        }
+                    });
+
+                    // 使用事件委派處理 keydown 事件
+                    document.addEventListener('keydown', function (event) {
+                        if (event.key !== 'Enter' && event.key !== ' ') return;
+
+                        var target = event.target;
+                        if (!target.classList.contains('left_div')) return;
+                        if (!target.closest('.treeview')) return;
+
+                        var checkbox = findParentCheckbox(target);
+                        if (checkbox && hasSubMenu(checkbox)) {
+                            // 切換展開/收合狀態
+                            checkbox.checked = !checkbox.checked;
+                            updateSubMenuTabIndex();
+                        }
+                    });
+
+                    // 監聽所有 checkbox 的變化以更新 tabindex
+                    var allCheckboxes = document.querySelectorAll('.treeview input[type="checkbox"]');
+                    allCheckboxes.forEach(function (checkbox) {
+                        checkbox.addEventListener('change', updateSubMenuTabIndex);
+                    });
+                });
+            })();
+        </script>
+        <!-- 自動為所有外部連結添加「另開新視窗」提示 -->
+        <script>
+            (function () {
+                // 等待 DOM 載入完成
+                document.addEventListener('DOMContentLoaded', function () {
+                    // 選取所有帶有 target="_blank" 的連結
+                    var externalLinks = document.querySelectorAll('a[target="_blank"]');
+
+                    externalLinks.forEach(function (link) {
+                        // 檢查連結是否已經有「另開新視窗」相關文字
+                        var linkText = link.textContent || '';
+                        var hasWindowHint = linkText.includes('另開新視窗') ||
+                            linkText.includes('(另開新視窗)') ||
+                            link.querySelector('.visually-hidden');
+
+                        // 如果還沒有提示，則添加
+                        if (!hasWindowHint) {
+                            // 創建視覺隱藏的提示文字
+                            var span = document.createElement('span');
+                            span.className = 'visually-hidden';
+                            span.textContent = '（另開新視窗）';
+
+                            // 將提示文字添加到連結末尾
+                            link.appendChild(span);
+
+                            // 如果連結沒有 title 屬性，添加一個
+                            if (!link.getAttribute('title')) {
+                                var linkContent = link.textContent.replace('（另開新視窗）', '').trim();
+                                link.setAttribute('title', linkContent + '（另開新視窗）');
+                            } else {
+                                // 如果已有 title 但不包含「另開新視窗」，則補上
+                                var currentTitle = link.getAttribute('title');
+                                if (!currentTitle.includes('另開新視窗')) {
+                                    link.setAttribute('title', currentTitle + '（另開新視窗）');
+                                }
+                            }
+
+                            // 如果連結沒有 aria-label，使用 title 的值
+                            if (!link.getAttribute('aria-label') && link.getAttribute('title')) {
+                                link.setAttribute('aria-label', link.getAttribute('title'));
+                            }
+                        }
+                    });
+                });
+            })();
+        </script>
+
+        <!-- Menu toggle 鍵盤無障礙支援 -->
+        <script>
+            (function () {
+                document.addEventListener('DOMContentLoaded', function () {
+                    var menuLabel = document.querySelector('label[for="drop"]');
+                    var menuCheckbox = document.getElementById('drop');
+
+                    if (menuLabel && menuCheckbox) {
+                        // 按下 Enter 或 Space 時 toggle 選單
+                        menuLabel.addEventListener('keydown', function (e) {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault();
+                                menuCheckbox.checked = !menuCheckbox.checked;
+                                // 更新 aria-expanded 狀態
+                                menuLabel.setAttribute('aria-expanded', menuCheckbox.checked);
+                            }
+                        });
+
+                        // 點擊時也更新 aria-expanded 狀態
+                        menuLabel.addEventListener('click', function () {
+                            setTimeout(function () {
+                                menuLabel.setAttribute('aria-expanded', menuCheckbox.checked);
+                            }, 0);
+                        });
+
+                        // checkbox 狀態變化時更新 aria-expanded
+                        menuCheckbox.addEventListener('change', function () {
+                            menuLabel.setAttribute('aria-expanded', menuCheckbox.checked);
+                        });
+                    }
+                });
+            })();
+        </script>
+
+        <!-- Skip-link Accesskey 焦點導航修正：確保 Alt+C/U/Z 後焦點真正移至目標區塊 -->
+        <script>
+            (function () {
+                document.addEventListener('DOMContentLoaded', function () {
+                    // Accesskey 對應的目標 ID
+                    var accesskeyMap = {
+                        'c': 'main-content',
+                        'u': 'navigation',
+                        'z': 'contact'
+                    };
+
+                    // 方法一：攔截鍵盤 Alt+Key，直接 focus 目標元素
+                    document.addEventListener('keydown', function (e) {
+                        if (!e.altKey) return;
+                        var key = e.key.toLowerCase();
+                        var targetId = accesskeyMap[key];
+                        if (!targetId) return;
+
+                        e.preventDefault();
+                        e.stopPropagation();
+                        var target = document.getElementById(targetId);
+                        if (target) {
+                            target.setAttribute('tabindex', '-1');
+                            target.focus();
+                        }
+                    });
+
+                    // 方法二：點擊 skip-link 時也確保焦點移到目標
+                    var skipLinks = document.querySelectorAll('.skip-link[href^="#"]');
+                    skipLinks.forEach(function (link) {
+                        link.addEventListener('click', function (e) {
+                            e.preventDefault();
+                            var targetId = this.getAttribute('href').substring(1);
+                            var target = document.getElementById(targetId);
+                            if (target) {
+                                target.setAttribute('tabindex', '-1');
+                                target.focus();
+                            }
+                        });
+                    });
+                });
+            })();
+        </script>
+
+        <!-- 焦點離開漢堡選單時自動收合 (WCAG CS2240700E) -->
+        <script>
+            (function () {
+                document.addEventListener('DOMContentLoaded', function () {
+                    var menuCheckbox = document.getElementById('drop');
+                    var mainMenu = document.getElementById('main-menu');
+                    var menuLabel = document.querySelector('label[for="drop"]');
+                    var tmenubox = document.querySelector('.tmenubox');
+
+                    if (!menuCheckbox || !mainMenu || !menuLabel || !tmenubox) return;
+
+                    // 當焦點離開選單區域時，自動收合選單
+                    tmenubox.addEventListener('focusout', function () {
+                        setTimeout(function () {
+                            // 確認新的焦點目標不在選單區域內
+                            if (menuCheckbox.checked && !tmenubox.contains(document.activeElement)) {
+                                menuCheckbox.checked = false;
+                                menuLabel.setAttribute('aria-expanded', 'false');
+
+                                // 同時收合子選單的 checkbox
+                                var subCheckboxes = tmenubox.querySelectorAll('input[type="checkbox"]');
+                                subCheckboxes.forEach(function (cb) {
+                                    cb.checked = false;
+                                });
+                            }
+                        }, 0);
+                    });
+
+                    // 按 Escape 鍵時收合選單，並將焦點返回 Menu 按鈕
+                    tmenubox.addEventListener('keydown', function (e) {
+                        if (e.key === 'Escape' && menuCheckbox.checked) {
+                            menuCheckbox.checked = false;
+                            menuLabel.setAttribute('aria-expanded', 'false');
+
+                            var subCheckboxes = tmenubox.querySelectorAll('input[type="checkbox"]');
+                            subCheckboxes.forEach(function (cb) {
+                                cb.checked = false;
+                            });
+
+                            menuLabel.focus();
+                        }
+                    });
+                });
+            })();
+        </script>
+    </form>
+</body>
+</html>
