@@ -1,0 +1,7 @@
+C:\Users\kevin\Desktop\FTA專案\FTA\bin\FTA.dll.config
+C:\Users\kevin\Desktop\FTA專案\FTA\bin\FTA.dll
+C:\Users\kevin\Desktop\FTA專案\FTA\bin\FTA.pdb
+C:\Users\kevin\Desktop\FTA專案\FTA\obj\Debug\FTA.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\FTA專案\FTA\obj\Debug\FTA.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\FTA專案\FTA\obj\Debug\FTA.dll
+C:\Users\kevin\Desktop\FTA專案\FTA\obj\Debug\FTA.pdb

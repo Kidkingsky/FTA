@@ -1,0 +1,303 @@
+/* ========================================
+   網站導覽頁面樣式
+   Sitemap Page Styles
+   ======================================== */
+
+/* Page Header */
+.sitemap-header {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.sitemap-main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0b2759;
+    margin-bottom: 0.5rem;
+}
+
+.sitemap-subtitle {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.sitemap-divider {
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, #0b2759, #1e56a0);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+/* Introduction */
+.sitemap-intro {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-left: 4px solid #0b2759;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.sitemap-intro p {
+    margin: 0;
+    font-size: 1rem;
+    color: #495057;
+}
+
+/* Sitemap Content Container */
+.sitemap-content {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+.sitemap-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.sitemap-section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.sitemap-section-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #0b2759;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sitemap-section-title i {
+    font-size: 1.5rem;
+    color: #1e56a0;
+}
+
+/* List Styles */
+.sitemap-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sitemap-list li {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.sitemap-list li:hover {
+    background-color: #e9ecef;
+    border-left-color: #0b2759;
+    transform: translateX(5px);
+}
+
+/* Link Styles */
+.sitemap-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.2s ease;
+}
+
+.sitemap-link:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
+.sitemap-link:focus,
+.sitemap-link:focus-visible {
+    outline: 2px solid #ff8a00 !important;
+    outline-offset: 2px;
+    background-color: #fff8e6;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.sitemap-link i.bi-circle-fill {
+    font-size: 0.5rem;
+    color: #0b2759;
+}
+
+.sitemap-link i.bi-box-arrow-up-right {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Current Page Indicator */
+.sitemap-link.current-page {
+    color: #495057;
+    font-weight: 600;
+}
+
+.sitemap-link.current-page i.bi-circle-fill {
+    color: #28a745;
+}
+
+/* Description Text */
+.sitemap-description {
+    color: #4C5257;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    font-style: italic;
+}
+
+/* Back to Top Button */
+.btn-back-top {
+    background-color: #0b2759;
+    border-color: #0b2759;
+    color: #ffffff;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-back-top:hover {
+    background-color: #1e56a0;
+    border-color: #1e56a0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-back-top:focus,
+.btn-back-top:focus-visible {
+    outline: 2px solid #ff8a00 !important;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(255, 138, 0, 0.2);
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+
+/* Tablet and Below */
+@media (max-width: 768px) {
+    .sitemap-main-title {
+        font-size: 2rem;
+    }
+
+    .sitemap-subtitle {
+        font-size: 1rem;
+    }
+
+    .sitemap-content {
+        padding: 1.5rem;
+    }
+
+    .sitemap-section-title {
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .sitemap-list li {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .sitemap-link {
+        font-size: 1rem;
+    }
+
+    .sitemap-description {
+        display: block;
+        margin-left: 1.5rem;
+        margin-top: 0.25rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .sitemap-main-title {
+        font-size: 1.75rem;
+    }
+
+    .sitemap-header {
+        padding: 1rem 0;
+    }
+
+    .sitemap-content {
+        padding: 1rem;
+    }
+
+    .sitemap-section {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .sitemap-section-title {
+        font-size: 1.25rem;
+    }
+
+    .sitemap-link {
+        font-size: 0.95rem;
+    }
+
+    .btn-back-top {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* ========================================
+   Accessibility - High Contrast Mode
+   ======================================== */
+
+@media (prefers-contrast: high) {
+    .sitemap-list li {
+        border: 2px solid currentColor;
+    }
+
+    .sitemap-link {
+        text-decoration: underline;
+    }
+
+    .sitemap-divider {
+        background: currentColor;
+    }
+}
+
+/* ========================================
+   Print Styles
+   ======================================== */
+
+@media print {
+    .sitemap-header {
+        page-break-after: avoid;
+    }
+
+    .sitemap-section {
+        page-break-inside: avoid;
+    }
+
+    .btn-back-top {
+        display: none;
+    }
+
+    .sitemap-link {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .sitemap-link i {
+        display: none;
+    }
+}

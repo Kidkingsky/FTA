@@ -1,0 +1,1654 @@
+
+:root {
+    --primary: #D81324;
+    --secondary: #0B2154;
+    --light: #F2F2F2;
+    --dark: #111111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+.ptie { /*--前言 --*/
+    font-size: 1em;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    padding: 2px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    height: auto;
+    color: #212325 !important;
+    font-weight: 900;
+}
+
+.t-blue {
+    color: #3b3599 !important;
+}
+/*----------pc--各國----------------------*/
+.col-md-6 {
+    flex: 0 0 auto;
+}
+
+
+.fta-con-ni { /*---------針對台尼FTA請於7/1起於首頁圖片連結國名後新增「停止施行」字樣---調位置用的框--------*/
+    margin: 0px 0px 0px -46px;
+}
+
+
+/*------------0329--added-----------------------*/
+body {
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.bg-secondary {
+    background-color: #fff !important;
+}
+
+
+#contact h4 {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-weight: bold;
+}
+
+.eca-fta-logo img {
+    width: 322px;
+    height: 64px;
+}
+
+.newtitle-a h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 4.813em;
+    font-weight: bold;
+}
+
+.newtitle-a h2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 88%;
+    font-size: 1.688em;
+    font-weight: 300;
+    word-break: break-all;
+    line-height: 38px;
+}
+
+.carousel-item img { /*------pc---大banner-----*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 742px;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+
+.text-lg-start {
+    text-align: left !important;
+    margin: -130px 0px 0px 0px;
+}
+
+
+/*-FTA/ECA簽訂國家-大標題前的icon---*/
+
+.icon-airplan {
+    font-family: 'Noto Sans TC', 'Arial';
+    font-weight: bold;
+    background-image: url(../images/icons/icon-airplan.png);
+    background-position: 350px -3px;
+    background-repeat: no-repeat;
+    background-size: 108px 107px;
+    padding: 30px 0px 0px 0px;
+    margin: 0px 0px 3px 0px;
+    height: 102px;
+    color: #2858AB;
+}
+
+
+
+.country-part h1 {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-weight: bold;
+}
+
+
+
+.country-part h5 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.country-part {
+    background: #e2f2ff;
+    max-width: 100%;
+}
+
+/*---國家方塊---*/
+.team-item {
+    border-radius: 19px;
+    box-shadow: 0px 0px 10px #9d9c9c;
+    padding: 0px 0px 6px 0px;
+    height: 357px;
+    background-color: #fff;
+    margin: 0px 0px 23px 0px;
+}
+
+.img-fluid {
+    width: 341px !important;
+    height: 278px !important;
+    border-radius: 9px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+/*--國旗--*/
+
+.flag-logo-1 {
+    background-image: url(../images/logos/a-logo-1.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-2 {
+    background-image: url(../images/logos/a-logo-2.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-3 { /*---------針對台尼FTA-新增「停止施行」字樣---調位置-------*/
+    background-image: url(../images/logos/a-logo-3.png);
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 18px 0px 0px 64px;
+    margin: -23px 0px 0px 62px;
+    height: 63px;
+}
+
+
+.flag-logo-4 {
+    background-image: url(../images/logos/a-logo-4.png);
+    background-position: 15px 0px;
+    background-repeat: no-repeat;
+    background-size: 108px 56px;
+    padding: 8px 0px 0px 121px;
+    margin: -13px 0px 0px -25px;
+    height: 56px;
+}
+
+.flag-logo-5 {
+    background-image: url(../images/logos/a-logo-5.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-6 {
+    background-image: url(../images/logos/a-logo-6.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-7 {
+    background-image: url(../images/logos/a-logo-7.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-8 {
+    background-image: url(../images/logos/a-logo-8.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-9 {
+    background-image: url(../images/logos/a-logo-9.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-10 {
+    background-image: url(../images/logos/a-logo-10.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+.flag-logo-11 {
+    background-image: url(../images/logos/a-logo-11.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 119px 58px;
+    padding: 8px 0px 0px 115px;
+    margin: -14px 0px 0px 4px;
+    height: 56px;
+    text-align: left;
+}
+
+.flag-logo-12 {
+    background-image: url(../images/logos/a-logo-12.png);
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: 68px 56px;
+    padding: 17px 0px 0px 40px;
+    margin: -14px 0px 0px 17px;
+    height: 56px;
+}
+
+
+/*------------0329--added-----------------------*/
+
+
+
+
+
+
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+    #spinner.show {
+        transition: opacity .5s ease-out, visibility 0s linear 0s;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+/*** Button ***/
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #95CCF4;
+    border-color: #95CCF4;
+    box-shadow: 0 0 0 .25rem rgb(122 196 255)
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #95CCF4;
+    border-color: #95CCF4;
+    box-shadow: 0 0 0 .25rem rgb(122 196 255)
+}
+
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #95CCF4 !important;
+    border-color: #95CCF4 !important;
+}
+
+
+/*
+    
+    
+    
+    .btn-check:checked+.btn-primary, .btn-check:active+.btn-primary, .btn-primary:active, .btn-primary.active, .show>.btn-primary.dropdown-toggle {
+        color: #fff;
+        background-color: #ad0f1d;
+        border-color: #a20e1b;
+    }
+    
+    
+    .btn-check:checked+.btn-primary:focus, .btn-check:active+.btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show>.btn-primary.dropdown-toggle:focus {
+         box-shadow:#1BACFD!important;
+    }*/
+
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+    .btn.btn-primary,
+    .btn.btn-secondary {
+        color: #FFFFFF;
+    }
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+
+/*** Navbar ***/
+
+.navbar-nav a {
+    color: #114295;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+}
+
+
+
+
+.mb-4 {
+    margin-bottom: 13.5rem !important;
+}
+
+
+
+@media (min-width: 1440px) {
+
+    .col-md-6 {
+        flex: 0 0 auto;
+    }
+}
+
+
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+    height: 75px;
+}
+
+.btn-primary {
+    background-color: #1256a3;
+    border-color: #bbdbff;
+    border-radius: 9px;
+    font-size: 1.375em;
+}
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #5ba8ff;
+        border-color: #bbdbff;
+    }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #114295;
+    font-weight: 500;
+}
+
+.navbar-light.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+
+
+
+
+/*** 內文大框 ***/
+.column_container {
+    max-width: 100% !important;
+    margin: auto;
+}
+
+
+/*** 內文大框 end***/
+
+
+/*** 內文 end***/
+.cent-t {
+    background-image: url(../images/icons/cityT-icon.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 36px 40px;
+    padding: 2px 0px 0px 42px;
+    margin: 48px 0px 22px 0px;
+    height: 56px;
+    color: #4583d7 !important;
+    font-size: 2em;
+    font-weight: 900;
+    border-bottom: 1px solid #233C75;
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+/*** 內文 end***/
+
+/*** 左邊menu ***/
+
+/*-----左邊menu----*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*Title Default*/
+body {
+    /*background: #343436;*/
+    color: #757575;
+    font-family: arial;
+}
+
+h1 {
+    margin: 1em 0;
+    text-align: center;
+    border-bottom: 1px dashed;
+    padding-bottom: 1em;
+    font-weight: lighter;
+}
+
+/*Treeview ***********************************************/
+.treeview input[type=checkbox] {
+    display: none
+}
+
+
+.treeview,
+.treeview ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+    .treeview li {
+        padding-left: 27px;
+        position: relative;
+        font-size: 1rem;
+        margin-top: 4px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .treeview > li {
+        padding-left: 0;
+    }
+
+    .treeview ul {
+        max-height: 0;
+        -webkit-transition: .8s ease;
+        -moz-transition: .8s ease;
+        -ms-transition: .8s ease;
+        -o-transition: .8s ease;
+    }
+
+    .treeview li input:nth-of-type(1):checked ~ ul {
+        max-height: 1000px;
+    }
+
+    .treeview li label { /*-------pc------*/
+        padding: 16px;
+        padding-left: 78px;
+        cursor: pointer;
+        height: auto;
+        font-size: 0.813em;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #b2b7cf;
+    }
+
+
+        .treeview li label i {
+            font-size: 0.875em;
+        }
+
+        .treeview li label > span {
+            margin: 0 20px
+        }
+
+        .treeview li label input[type=text] {
+            flex: 1;
+            color: #676A6C;
+            background: white;
+            border: none;
+            border-radius: 3px;
+            transition: .2s ease;
+            padding: 9px;
+            margin-left: 10px;
+            background: none
+        }
+
+            .treeview li label input[type=text]:focus,
+            .treeview li label input[type=text]:hover {
+                background: white
+            }
+
+        .treeview li label:not(.child):before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 1.063em;
+            content: "\f054";
+            color: #4D7CD8;
+        }
+
+    .treeview li input[type=checkbox]:checked + label:before {
+        transform: rotate(90deg);
+    }
+
+    .treeview .ball {
+        left: 16px;
+        margin-left: 2px;
+        padding-right: 0px;
+    }
+
+        .treeview .ball:before {
+            color: #fff;
+            position: relative;
+            display: flex;
+            border-radius: 50%;
+            background-color: #fff;
+            align-items: center;
+            height: 23px;
+            width: 23px;
+            font-size: 0.813em;
+            justify-content: center;
+            content: attr(data-id);
+        }
+
+    .treeview .action-list {
+        @ margin-left: auto
+    }
+
+        .treeview .action-list i {
+            margin-left: 15px
+        }
+
+
+button {
+    color: #236CCF;
+    background-color: transparent;
+    border: none;
+    font-size: 1.125em;
+    font-weight: bold;
+    padding: 0px 0px 0px 8px;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+
+    #London {
+        width: 90%;
+    }
+
+    .treeview li label {
+        padding: 16px;
+        padding-left: 16px;
+        padding-left: 26px;
+        cursor: pointer;
+        height: 98px;
+        font-size: 0.813em;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #5b5e6c;
+    }
+
+    .treeview .ball::before {
+        color: transparent;
+        position: relative;
+        display: flex;
+        border-radius: 50%;
+        background-color: transparent;
+        align-items: center;
+        height: 23px;
+        width: 9px;
+        font-size: 0.813em;
+        justify-content: center;
+        content: attr(data-id);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+}
+
+/*** 左邊menu end ***/
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+
+
+    .col-md-6 {
+        flex: 0 0 auto;
+    }
+}
+
+
+
+
+/*** Header ***/
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--light);
+}
+
+
+/*** QA ***/
+
+/*----點背景動態-----*/
+
+
+$bubble-count: 30;
+$sway-type: "sway-left-to-right", "sway-right-to-left";
+
+@function random_range($min, $max) {
+    $rand: random();
+    $random_range: $min + floor($rand * (($max - $min) + 1));
+    @return $random_range;
+}
+
+@function sample($list) {
+    @return nth($list, random(length($list)));
+}
+
+.bubbles {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bubble {
+    position: absolute;
+    left: var(--bubble-left-offset);
+    bottom: -75%;
+    display: block;
+    width: var(--bubble-radius);
+    height: var(--bubble-radius);
+    border-radius: 50%;
+    animation: float-up var(--bubble-float-duration) var(--bubble-float-delay) ease-in infinite;
+    &::before
+
+{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(183, 94%, 76%, 0.3);
+    border-radius: inherit;
+    animation: var(--bubble-sway-type) var(--bubble-sway-duration) var(--bubble-sway-delay) ease-in-out alternate infinite;
+}
+
+@for $i from 0 through $bubble-count {
+    &:nth-child(#{$i}) {
+        --bubble-left-offset: #{random_range(0vw, 100vw)};
+        --bubble-radius: #{random_range(1vw, 10vw)};
+        --bubble-float-duration: #{random_range(6s, 12s)};
+        --bubble-sway-duration: #{random_range(4s, 6s)};
+        --bubble-float-delay: #{random_range(0s, 4s)};
+        --bubble-sway-delay: #{random_range(0s, 4s)};
+        --bubble-sway-type: #{sample($sway-type)};
+    }
+}
+
+}
+
+@keyframes float-up {
+    to {
+        transform: translateY(-175vh);
+    }
+}
+
+@keyframes sway-left-to-right {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes sway-right-to-left {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+/*------點背景end---------*/
+.QA-bg {
+    /*  background: url(../images/banners/dotbg.gif) left -74px repeat;
+        background-size: 1920px 1080px;*/
+    background-color: #fff;
+    padding: 0px;
+}
+
+.qa-box {
+    background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 70%)), url(../images/banners/QA-topbn-1457px.jpg) center -253px repeat-x;
+    background-size: 1457px 609px;
+    border-radius: 19px;
+    box-shadow: 0px 0px 6px #9d9c9c;
+    padding: 0px 0px 6px 0px;
+    height: auto;
+    background-color: #daf4ff;
+    margin: 50px 0px 23px 0px;
+}
+
+
+
+/*** Service ***/
+.service .nav .nav-link {
+    background: var(--light);
+    transition: .5s;
+}
+
+    .service .nav .nav-link.active {
+        background: var(--primary);
+    }
+
+        .service .nav .nav-link.active h4 {
+            color: #FFFFFF !important;
+        }
+
+
+/*** 背景簡介sec03 ***/
+
+.intro-t {
+    padding: 0px 0px 0px 56px;
+    color: #081951;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+
+.intro-t2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #13499B;
+}
+
+.intro-t3 {
+    color: #000000;
+    font-size: 1.313em;
+    line-height: 36px;
+}
+
+.intro-box {
+    border-left: 23px solid #80BEF5;
+    padding: 0px 0px 0px 34px;
+}
+
+.intro-img {
+    margin: -12px 0px 66px 0px;
+}
+
+    .intro-img img {
+        border: 14px solid #75AFF2;
+        width: 471px;
+        height: 439px;
+        padding: 0px;
+    }
+
+
+.booking {
+    /* background: url(../images/banners/dotbg.gif) left -16px repeat-x;
+    
+        background-size: 1920px 1080px;*/
+    background-color: #fff;
+    padding: 156px;
+}
+
+.bootstrap-datetimepicker-widget.bottom {
+    top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+    border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+    font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+    background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+    border-bottom-color: var(--primary);
+}
+
+/*----洽簽成果----*/
+
+.sec4-bg {
+    background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 70%)), url(../images/banners/sec4-bg-1920x1080-1.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 292px;
+}
+
+
+
+
+.sec4-t {
+    padding: 176px 0px 0px 0px;
+    color: #081951;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.sec4-t2 {
+    padding: 20px 0px 9px 0px;
+    color: #13499B;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.style0 { /*--移入--*/
+    background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 70%)), url(../images/banners/sec4-bg-s2.gif) center center no-repeat;
+    background-size: cover;
+    height: 809px;
+}
+
+.style1 { /*--移出--*/
+    background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 70%)), url(../images/banners/sec4-bg-1920x1080-2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 809px;
+}
+
+
+
+/*** Team ***/
+.team-item .team-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    transform: scale(0);
+    transition: .5s;
+}
+
+.team-item:hover .team-overlay {
+    transform: scale(1);
+}
+
+.team-item .team-overlay .btn {
+    color: var(--primary);
+    background: #FFFFFF;
+}
+
+    .team-item .team-overlay .btn:hover {
+        color: #FFFFFF;
+        background: var(--secondary)
+    }
+
+
+/*** Testimonial ***/
+.testimonial-carousel .owl-item .testimonial-text,
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
+    background: var(--primary) !important;
+}
+
+    .testimonial-carousel .owl-item.center .testimonial-text * {
+        color: #FFFFFF !important;
+    }
+
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #CCCCCC;
+    transition: .5s;
+}
+
+    .testimonial-carousel .owl-dot.active {
+        background: var(--primary);
+        border-color: var(--primary);
+    }
+
+
+/*** Footer ***/
+
+.footerall {
+    margin: 13px -7px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    max-width: 610px;
+    float: right;
+    font-family: 'Noto Sans TC', 'Helvetica, Arial';
+}
+
+
+
+    .footerall a {
+        color: #1b327e !important;
+    }
+
+
+.footer-text {
+    color: #081951;
+    padding: 11px 0px 0px 56px;
+}
+
+.icon-BOFT {
+    font-family: 'Noto Sans TC', 'Helvetica, Arial';
+    background: url(../images/logos/logo-BOFT.png) left top no-repeat;
+    background-size: 49px 49px;
+    height: 56px;
+    /*font-size: 1.875em;*/
+    background-position: 1px 6px;
+    font-weight: bold;
+}
+
+.footer p {
+    font-family: 'Noto Sans TC', 'Helvetica, Arial';
+    font-weight: 500;
+    color: #1B327E;
+    line-height: 36px;
+    padding: 0px 0px 0px 57px;
+    font-size: 1.375em;
+}
+
+.number-f {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+}
+
+.footer {
+    background: url(../images/others/footer-bg.jpg) center center no-repeat;
+    background-size: cover;
+    /* height: 413px; */
+    background-position: 2px -56px;
+    height: 304px;
+}
+
+    .footer .btn.btn-social {
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--light);
+        border: 1px solid #FFFFFF;
+        border-radius: 35px;
+        transition: .3s;
+    }
+
+        .footer .btn.btn-social:hover {
+            color: var(--bs-cyan);
+        }
+
+    .footer .btn.btn-link {
+        display: block;
+        margin-bottom: 5px;
+        padding: 0;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 0.938em;
+        font-weight: normal;
+        text-transform: capitalize;
+        transition: .3s;
+    }
+
+        .footer .btn.btn-link::before {
+            position: relative;
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            margin-right: 10px;
+        }
+
+        .footer .btn.btn-link:hover {
+            letter-spacing: 1px;
+            box-shadow: none;
+        }
+
+    .footer .copyright {
+        padding: 25px 0;
+        font-size: 0.938em;
+        border-top: 1px solid rgba(256, 256, 256, .1);
+    }
+
+        .footer .copyright a {
+            color: var(--light);
+        }
+
+    .footer .footer-menu a {
+        margin-right: 15px;
+        padding-right: 15px;
+        border-right: 1px solid rgba(255, 255, 255, .3);
+    }
+
+        .footer .footer-menu a:last-child {
+            margin-right: 0;
+            padding-right: 0;
+            border-right: none;
+        }
+
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (max-width: 992px) {
+
+
+    .fta-con-ni { /*---------針對台尼FTA請於7/1起於首頁圖片連結國名後新增「停止施行」字樣---調位置用的框--------*/
+        margin: 0px 0px 0px -46px;
+    }
+
+    .flag-logo-3 { /*---------針對台尼FTA-新增「停止施行」字樣---調位置-------*/
+        background-image: url(../images/logos/a-logo-3.png);
+        background-position: 0px 10px;
+        background-repeat: no-repeat;
+        background-size: 56px 56px;
+        padding: 25px 0px 0px 60px;
+        padding-top: 25px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 60px;
+        margin: -23px 0px 0px 34px;
+        margin-bottom: 0px;
+        height: 63px;
+    }
+
+    .component_layout {
+        max-width: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 8px;
+        padding-right: 0px;
+        margin: auto;
+    }
+
+    .footer p {
+        font-family: 'Noto Sans TC', 'Helvetica, Arial';
+        font-weight: 500;
+        color: #1B327E;
+        line-height: 24px;
+        padding: 6px 0px 0px 57px;
+        font-size: 1.375em;
+    }
+
+    .footerall {
+        margin: -30px 0px 0px 126px;
+        padding: 0px 18px 0px 0px;
+        max-width: 59%;
+        float: right;
+        font-family: 'Noto Sans TC', 'Helvetica, Arial';
+    }
+
+    .footer {
+        background: url(../images/others/footer-bg.jpg) center center no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: auto;
+        background-size: 112% 72%;
+        height: 413px;
+        background-position: -21px -15px;
+        height: 334px;
+    }
+
+    #QA {
+        margin: 55px 0px;
+    }
+
+    .qa-box {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/QA-topbn-1457px.jpg) -35px -192px repeat-x;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: auto, auto;
+        background-size: 141% 514px;
+        border-radius: 19px;
+        box-shadow: 0px 0px 6px #9d9c9c;
+        padding: 0px 0px 6px 0px;
+        height: auto;
+        background-color: #daf4ff;
+        margin: 50px 0px 23px 0px;
+    }
+
+    .sec4-bg {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/sec4-bg-1920x1080-1.jpg) 0px 0px no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: auto, auto;
+        background-size: 136% 57%;
+        padding: 0px;
+    }
+
+
+
+    .style1 {
+        background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 70%)), url(../images/banners/sec4-bg-1920x1080-2.jpg) 0px 0px no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: auto, auto;
+        background-size: 136% 57%;
+        padding: 0px;
+    }
+
+
+    .style0 {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/sec4-bg-s2.gif) 0px 0px no-repeat;
+        background-size: auto, auto;
+        background-size: 136% 57%;
+        height: 836px;
+    }
+
+    .sec4-t {
+        padding: 0px 0px 0px 0px;
+        color: #081951;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+
+
+
+
+
+    .icon-airplan {
+        font-family: 'Noto Sans TC', 'Arial';
+        font-weight: bold;
+        background-image: url(../images/icons/icon-airplan.png);
+        background-position: 105px -3px;
+    }
+
+    .newtitle-a h1 {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 4.25em;
+        font-weight: bold;
+    }
+
+    .newtitle-a h2 {
+        font-family: 'Noto Sans TC', sans-serif;
+        width: 95%;
+        font-size: 1.5em;
+        font-weight: 300;
+        word-break: break-all;
+        line-height: 36px;
+    }
+
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 357px;
+    }
+
+    .text-lg-start {
+        text-align: left !important;
+        margin: 159px 0px 0px 0px;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .carousel-item img { /*-----平板---大banner------*/
+        margin: 0px;
+        padding: 0px;
+        width: 147% !important;
+        height: 98% !important;
+        max-width: 100%;
+    }
+
+    .icon-airplan {
+        font-family: 'Noto Sans TC', 'Arial';
+        font-weight: bold;
+        background-image: url(../images/icons/icon-airplan.png);
+        background-position: 99px -3px;
+        background-repeat: no-repeat;
+        background-size: 108px 107px;
+        padding: 30px 1px 0px 48px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .fta-con-ni { /*---------針對台尼FTA請於7/1起於首頁圖片連結國名後新增「停止施行」字樣---調位置用的框--------*/
+        margin: 0px 0px 0px -67px;
+    }
+
+    .flag-logo-3 { /*---------針對台尼FTA-新增「停止施行」字樣---調位置-------*/
+        background-image: url(../images/logos/a-logo-3.png);
+        background-position: 0px 10px;
+        background-repeat: no-repeat;
+        background-size: 56px 56px;
+        padding: 25px 0px 0px 64px;
+        margin: -21px 0px 0px 69px;
+        margin-bottom: 0px;
+        height: 63px;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        z-index: 1000;
+        display: block !important;
+        min-width: 10rem;
+        padding: .5rem 0;
+        margin: 0;
+        font-size: 1rem;
+        color: #596277;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 0px solid rgba(0,0,0,0.15) !important;
+        border-radius: 0px;
+    }
+
+    .carousel-item img { /*-----手機---大banner------*/
+        margin: 0px;
+        padding: 0px;
+        width: 147% !important;
+        height: 98% !important;
+        max-width: 100%;
+    }
+
+    .text-lg-start {
+        text-align: left !important;
+        margin: 241px 0px 0px 0px;
+    }
+
+    .eca-fta-logo img {
+        width: 305px;
+        height: 61px;
+        margin: 0px 0px 0px 31px;
+    }
+
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+
+
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.25em;
+        text-transform: uppercase;
+        border-right: none;
+        height: 28px;
+        margin: 8px 8px 3px 0px;
+        margin-right: 8px;
+        border-bottom: 1px solid #bcc9fd;
+        padding: 0px 0px 4px 0px !important;
+        line-height: 21px;
+    }
+
+
+    .booking {
+        /* background: url(../images/banners/dotbg.gif) left -16px repeat-x;
+    
+        background-size: 1920px 1080px;*/
+        background-color: #fff;
+        padding: 0px 0px 0px 0px;
+    }
+
+
+
+    .icon-airplan {
+        font-family: 'Noto Sans TC', 'Arial';
+        font-weight: bold;
+        background-image: url(../images/icons/icon-airplan.png);
+        background-position: 0px -3px;
+        background-repeat: no-repeat;
+        background-size: 108px 107px;
+        padding: 30px 0px 0px 115px;
+        margin: 0px 0px 3px 0px;
+        margin-bottom: 3px;
+        height: 102px;
+        color: #2858AB;
+    }
+
+    .img-fluid {
+        width: 367px !important;
+        height: 278px !important;
+        border-radius: 9px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .intro-img {
+        margin: -65px 0px -75px 0px;
+    }
+
+        .intro-img img {
+            border: 15px solid #75AFF2;
+            width: 100%;
+            height: 439px;
+            padding: 0px;
+        }
+
+    /*--------手機--最上面banner大標-----------------------*/
+
+    .carousel {
+        position: relative;
+        height: 317px;
+    }
+
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 67%;
+        object-fit: cover;
+        width: 147% !important;
+        height: 101% !important;
+        max-width: 100%;
+    }
+
+    .text-lg-start { /*--手機----大banner的字---------*/
+        text-align: left !important;
+        margin: 355px 0px 0px 0px;
+        width: 100%;
+    }
+
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 342px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 8.25rem;
+    }
+
+
+    .newtitle-a h1 {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 2.75em;
+        font-weight: bold;
+    }
+
+    .newtitle-a h2 {
+        font-family: 'Noto Sans TC', sans-serif;
+        width: 100%;
+        font-size: 1.125em;
+        font-weight: 300;
+        word-break: break-word;
+        line-height: 23px;
+    }
+    /*--洽簽成果--------------------------*/
+
+
+    .pt-4 {
+        padding-top: 0px !important;
+        min-height: 157px;
+    }
+
+    .style0 {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/sec4-bg-s2.gif) 0px 0px no-repeat;
+        background-size: 171% 50%;
+        height: auto;
+    }
+
+    .style1 {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/sec4-bg-1920x1080-2.jpg) 0px 0px no-repeat;
+        background-size: 171% 50%;
+        height: auto;
+    }
+
+    .sec4-bg {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/sec4-bg-1920x1080-1.jpg) 0px 0px no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: 171% 50%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .mbbox {
+        margin: -156px 0px;
+    }
+
+    .sec4-t {
+        padding: 0px 0px 0px 0px;
+        color: #081951;
+        font-family: 'Noto Sans TC', sans-serif;
+        margin: 0px auto;
+    }
+
+    /*--洽簽成果---------end-----------------*/
+
+
+    #QA {
+        margin: 214px 0px 2px 0px;
+        ;
+    }
+
+    .accordion-header a {
+        height: auto;
+        margin: 0px;
+    }
+
+
+
+
+    .plain_carousel_item {
+        display: block;
+        color: #000;
+        height: 70px !important;
+        margin: 3px 0px 0px 5px !important;
+        width: 177px !important;
+    }
+
+    .footerall {
+        margin: -27px -14px 0px 8px;
+        padding: 0px 0px 0px -9px;
+        max-width: 610px;
+        float: right;
+        font-family: 'Noto Sans TC', 'Helvetica, Arial';
+    }
+
+    .footer {
+        background: url(../images/others/footer-bg.jpg) -45px top no-repeat;
+        background-position-x: -45px;
+        background-position-y: top;
+        background-size: auto;
+        background-size: 298% 109%;
+        height: 413px;
+        background-position: -300px -16px;
+        height: 245px;
+    }
+
+        .footer p {
+            font-family: 'Noto Sans TC', 'Helvetica, Arial';
+            font-weight: 500;
+            color: #1B327E;
+            line-height: 25px;
+            padding: 0px 0px 0px 69px;
+            font-size: 1.25em;
+        }
+
+    #contact h4 {
+        font-family: 'Noto Sans TC', sans-serif !important;
+        font-weight: bold;
+        margin: 0px 0px 10px 28px;
+    }
+
+    .plain_carousel .swiper_custom_smallArrow_layout {
+        padding-left: 8px;
+    }
+
+
+    .accordion {
+        font-family: 'Arial','Noto Sans TC', sans-serif;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 11px 17px 6px 18px;
+        height: AUTO;
+        background-color: #E4F7FF;
+        margin: 169px 0px 27px 0px;
+        background-color: #EBFAFF;
+        border: 1px solid #fff;
+    }
+}
+
+
+.left_div {
+    color: #236CCF;
+    background-color: transparent;
+    border: none;
+    font-size: 1.125em;
+    font-weight: bold;
+    padding: 0px 0px 0px 8px;
+    text-align: left;
+}
+
+.g-5 {
+    --bs-gutter-x: 0rem;
+}
+
+.col-lg-3, .col-lg-9 {
+    padding: 0 1.5rem;
+}

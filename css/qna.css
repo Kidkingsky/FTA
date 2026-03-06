@@ -1,0 +1,354 @@
+﻿
+
+
+
+@charset "utf-8";
+/*------20250527-------問答區-----------------*/
+
+.Q-number-bg {
+    background-color: #6B7DF3;
+    color: #fff;
+    font-size: 2.313em;
+    border-radius: 17px;
+    padding: 4px 11px 4px 11px;
+    margin: 8px 8px 8px 8px;
+}
+
+.Qn-bg {
+    background-color: #4B66FB;
+    color: #fff;
+    font-size: 2.313em;
+    border-radius: 17px;
+    padding: 6px 11px 4px 11px;
+    margin: 0px 8px 0px 8px;
+}
+
+.bti-number-bg {
+    background-color: #146AFF;
+    color: #fff;
+    font-size: 2.625em;
+    border-radius: 17px;
+    padding: 7px 18px 7px 18px;
+    margin: 8px 10px 8px 0px;
+}
+
+.accordion-content-flex h1 {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: rgb(31, 20, 95);
+    font-size: 1.125em;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+.accordion-content-flex li {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: #4c5064;
+    font-size: 1.25em;
+    line-height: 39px;
+    list-style: disc;
+    /* padding: 20px 20px 20px 20px; */
+    margin: 1px 23px 1px 23px;
+}
+
+.accordion-content-flex img {
+    width: 71%;
+    height: 100%;
+    margin: 0px 0px 32px 0px;
+}
+
+.cimg {
+    text-align: center;
+}
+
+.accordion-box h1 {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: #4958b9;
+    margin: 51px 0px 34px 0px;
+    border-bottom: 1px solid #7a87cb;
+    padding: 0px 0px 15px 0px;
+    font-size: 1.563em;
+}
+
+.accordion-box h2 {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: #4958b9;
+    margin: 44px auto;
+    border-bottom: 1px solid #7a87cb;
+    padding: 0px 0px 15px 0px;
+    font-size: 1.375em;
+    line-height: 37px;
+    width: 95%;
+    font-weight: 400;
+}
+
+
+.accordion-box h3 {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: #4958b9;
+    margin: 44px auto;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 1px solid #7a87cb;
+    font-size: 1.375em;
+    line-height: 37px;
+    width: 95%;
+    font-weight: 400;
+}
+
+.accordion-box h4 {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: #4958b9;
+    margin: 31px auto;
+    padding: 0px 0px 0px 0px;
+    font-size: 1.375em;
+    line-height: 9px;
+    width: 95%;
+    font-weight: 400;
+    border: none;
+}
+
+
+.accordion {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 11px 17px 6px 18px;
+    height: AUTO;
+    background-color: #E4F7FF;
+    margin: 250px 0px 23px 0px;
+    background-color: #E4F7FF;
+    border: 1px solid #fff;
+}
+
+.accordion-box {
+    width: 90%;
+    margin: 0px auto;
+}
+
+a.accordion-header {
+    display: block;
+    /* background-color: #7c7c7c; */
+    /* background-image: linear-gradient(180deg, #7c7c7c, #4f4f4f); */
+    color: #13259B;
+    padding: 20px 5px;
+    font-size: 1.625em;
+    cursor: pointer;
+    margin-bottom: 2px;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #c6cce9;
+}
+
+
+    a.accordion-header.active-accordion {
+        /*background-color: #ff0057;
+	background-image: linear-gradient(180deg, #ff0057, #b70041);*/
+    }
+
+
+.accordion-content {
+    height: auto;
+    overflow: auto;
+    display: none;
+    position: relative;
+    border: solid 2px #d2dcef;
+    margin-top: -2px;
+    border-top: none;
+    margin-bottom: 2px;
+    text-align: left;
+    font-size: 0.875em;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #fff;
+    margin-bottom: 24px;
+}
+
+.accordion-content:focus {
+    outline: 2px solid #4958b9;
+    outline-offset: 2px;
+}
+
+.accordion-content-flex {
+    height: 100%;
+    padding: 10px;
+}
+a.accordion-header:after {
+    content: '\002b';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    /* margin-left: 10px; */
+    font-size: 2.3em;
+    background-color: #d2ddf3;
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    padding: 0px 6px 0px 3px;
+    margin: 0px 0px 0px 0px;
+    line-height: 45px;
+}
+
+a.accordion-header.active-accordion:after {
+    content: '\2212';
+}
+
+
+.accordion-box .title {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: #4958b9;
+    margin: 51px 0px 34px 0px;
+    border-bottom: 1px solid #7a87cb;
+    padding: 0px 0px 15px 0px;
+    font-size: 1.563em;
+}
+
+.accordion-box .sub {
+    font-family: 'Arial','Noto Sans TC', sans-serif;
+    color: #4958b9;
+    margin: 44px auto;
+    border-bottom: 1px solid #7a87cb;
+    padding: 0px 0px 15px 0px;
+    font-size: 1.375em;
+    line-height: 37px;
+    width: 95%;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (max-width: 992px) {
+
+
+
+    .accordion-box {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .qa-box {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/QA-topbn-1457px.jpg) -35px -192px repeat-x;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: auto, auto;
+        background-size: 141% 514px;
+        border-radius: 19px;
+        box-shadow: 0px 0px 6px #9d9c9c;
+        padding: 0px 0px 6px 0px;
+        height: auto;
+        background-color: #daf4ff;
+        margin: 50px 0px 23px 0px;
+    }
+
+    .plain_carousel_item {
+        display: block;
+        color: #000;
+        height: 69px !important;
+        margin: 3px 0px 0px 0px !important;
+        width: 159px !important;
+        padding: 0px 0px 0px 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .accordion {
+        font-family: 'Arial','Noto Sans TC', sans-serif;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 11px 17px 6px 18px;
+        height: AUTO;
+        background-color: #E4F7FF;
+        margin: 169px 0px 23px 0px;
+        background-color: #E4F7FF;
+        border: 1px solid #fff;
+    }
+
+
+
+
+
+    a.accordion-header {
+        display: block;
+        color: #13259B;
+        padding: 10px 5px;
+        font-size: 1.4375rem; /* 23px */
+        cursor: pointer;
+        margin-bottom: 2px;
+        text-decoration: none;
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 1px solid #c6cce9;
+    }
+
+
+        a.accordion-header::after {
+            content: '\002b';
+            color: #fff;
+            font-weight: bold;
+            float: right;
+            margin-left: 10px;
+            font-size: 2.75rem; /* 44px */
+            background-color: #d2ddf3;
+            width: 42px;
+            height: 42px;
+            border-radius: 50px;
+            padding: 0px 7px 0px 7px;
+            margin: 0px 0px 0px 0px;
+            line-height: 43px;
+        }
+
+
+    .accordion-box h1 {
+        font-family: 'Arial','Noto Sans TC', sans-serif;
+        color: #4958b9;
+        margin: 59px 0px 34px 0px;
+        border-bottom: 1px solid #7a87cb;
+        padding: 0px 0px 15px 0px;
+        font-size: 2rem; /* 32px */
+    }
+
+    .accordion-box .title {
+        font-family: 'Arial','Noto Sans TC', sans-serif;
+        color: #4958b9;
+        margin: 59px 0px 34px 0px;
+        border-bottom: 1px solid #7a87cb;
+        padding: 0px 0px 15px 0px;
+        font-size: 2rem; /* 32px */
+    }
+
+    .accordion-content-flex img {
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px 32px 0px;
+    }
+
+    .Q-number-bg {
+        background-color: #6B7DF3;
+        color: #fff;
+        font-size: 2.0625rem; /* 33px */
+        border-radius: 17px;
+        padding: 4px 11px 4px 11px;
+        margin: 8px 8px 8px 8px;
+    }
+
+    .qa-box {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url(../images/banners/QA-topbn-1457px.jpg) 0px 0px repeat-x !important;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: auto, auto;
+        background-size: 106% 10% !important;
+        border-radius: 19px;
+        box-shadow: 0px 0px 6px #9d9c9c;
+        padding: 0px 0px 0px 0px;
+        height: auto;
+        background-color: #daf4ff;
+        margin: 56px 0px 23px 0px;
+    }
+}

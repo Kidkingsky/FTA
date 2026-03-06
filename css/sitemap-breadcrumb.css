@@ -1,0 +1,87 @@
+/* Sitemap 麵包屑導覽樣式 */
+.breadcrumb-container {
+    background-color: #f8f9fa;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.breadcrumb-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* SiteMapPath 基本樣式 */
+#SiteMapPath1 {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* 當前頁面樣式 */
+#SiteMapPath1 .aspNetDisabled,
+#SiteMapPath1 span:last-child {
+    color: #0b2759;
+    font-weight: 600;
+}
+
+/* 連結樣式 */
+#SiteMapPath1 a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+#SiteMapPath1 a:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
+#SiteMapPath1 a:focus,
+#SiteMapPath1 a:focus-visible {
+    outline: 2px solid #ff8a00 !important;
+    outline-offset: 2px;
+    background-color: #fff8e6;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* 分隔符號樣式 */
+#SiteMapPath1 .separator {
+    margin: 0 8px;
+    color: #adb5bd;
+}
+
+/* 首頁圖示 */
+.breadcrumb-home-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .breadcrumb-container {
+        padding: 10px 15px;
+    }
+
+    #SiteMapPath1 {
+        font-size: 0.8125rem;
+    }
+
+    #SiteMapPath1 .separator {
+        margin: 0 5px;
+    }
+}
+
+/* 可訪問性：確保麵包屑在高對比模式下可見 */
+@media (prefers-contrast: high) {
+    .breadcrumb-container {
+        border: 2px solid currentColor;
+    }
+
+    #SiteMapPath1 a {
+        text-decoration: underline;
+    }
+}

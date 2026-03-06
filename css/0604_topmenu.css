@@ -1,0 +1,527 @@
+
+
+/*--logo--*/
+
+.ECA-FTA-logo h2 img {
+  width: 87%;
+  height: 58%;
+  margin: 0px 0px 0px 0px;
+}
+
+
+	.ECA-FTA-logo{
+			    float: left;
+ 
+    /*margin:3px 310px 5px 0px;*/
+}	
+
+/*--logo end--*/
+
+
+.bigbns0611 {
+	background-position: 76% 2%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	/*height: 405px;*/
+	margin: 0px auto 0px auto;
+	aspect-ratio: 16 / 3.25;
+}
+ 
+
+
+.tmenubox{    padding: 9px 0px;
+}
+
+.vtop{    color: #000000 !important;
+    margin-top:0px;
+}
+
+.rd_top{  
+    padding: 14px 0px 4px 11px;
+    height: 38px;
+    border-radius: 10px 10px 0px 0px;
+}
+.rd_g{  
+    padding: 8px 0px 15px 11px;
+    height: 33px;
+    
+}
+.rd_m{  
+    padding: 8px 0px 15px 11px;
+    height: 33px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+#container {
+	margin: 0 auto;
+	max-width: 890px;
+}
+
+.sec_k{width:0px;}
+.sec_k li{width: 165px;
+    padding: 2px;
+    background-color: #fff;
+}
+
+
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* Giving a background-color to the nav container. */
+nav { 
+	margin:0;
+	padding: 0;
+	 
+}
+
+#logo {
+	display: block;
+	padding: 0 30px;
+	float: left;
+	font-size: 1.25em;
+	line-height: 60px;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+    float: right;
+    padding: 0;
+   
+    list-style: none;
+    position: relative;
+}
+	
+/* Positioning the navigation items inline */
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+ 
+	}
+nav .b_right {
+    border-right: 2px solid #709dd1;
+    /* height: 39px; */
+    margin: 16px 0px 0px 0px;
+    line-height: 14px;
+}
+/* Styling the links */
+nav a {
+    display: block;
+    padding: 14px 20px;
+    color: #114295;
+    font-weight: bold;
+    font-size: 1.25rem; /* 20px */
+    text-decoration: none;
+}
+
+/*下拉底色*/
+nav ul li ul li:hover { color: #4382D8; }
+
+/* Background color change on Hover */
+nav a:hover { 
+ 
+	color: #4382D8;
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute 
+
+下拉子項*/
+nav ul ul {
+     display: none;
+    position: absolute;
+    top: 43px;
+    background-color: #fff;
+    width: 244px;
+    margin: 14px 0px 8px 0px;
+    height: 113px;
+    
+}
+ 
+
+
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+nav .sec_k li a{color: #4a59aa;
+
+}
+nav .sec_k li a:hover{color: #4257c3;
+
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 261px;
+    float: none;
+    display: list-item;
+    position: relative;
+    line-height: 6px;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+    position: relative;
+    top: -59px;
+    left: 238px;
+}
+nav ul ul ul li a {
+    background-color: white;
+}
+	
+/* Change ' +' in order to change the Dropdown symbol */
+
+ nav.primary-navigation li a {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+nav .f_right{        border-right: 2px solid #709dd1;
+    line-height: 14px;
+    margin: 17px 0px 0px 0px;
+    height: 41px;
+    padding: 0px 18px 0px 0px;
+}
+/*--貨品通關--重要資訊--*/
+nav .f_right a{    
+ background-image: url("../images/arrow-down.svg");
+    background-position: 154px 15px;
+    background-repeat: no-repeat;
+    background-size: 78px 14px;
+}
+nav .ard{
+     background-image: url(../images/arrow-right.svg)!important;
+    background-position: 192px 11px!important;
+    background-repeat: no-repeat!important;
+    background-size: 78px 14px!important;
+}
+
+nav .noicon{background:none!important;}
+
+nav .sec_k a{background:none;}
+nav .sec_c a{ }
+
+nav .b_right{ border-right: 2px solid #709dd1;}
+
+li > a:only-child:after { content: ''; }
+
+/*li > a:after {  
+	content: '▶'; }
+.navigation-wrapper .navigation .nav>.menuparent>a {
+    background-image: url(../img/arrow-down.png);
+    background-position: 85% center;
+    background-repeat: no-repeat;
+    background-size: 12px 8px;
+    padding-right: 40px;
+}
+*/
+
+.dro-down {
+    background-image: url(../images/arrow-down.svg);
+    background-position: 85% center;
+    background-repeat: no-repeat;
+    background-size: 12px 8px;
+    padding-right: 40px;
+}
+.dro-right  {
+    background-image: url(../images/arrow.svg);
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    background-size: 8px 12px;
+    padding-right: 40px;
+}
+
+
+/* Media Queries
+--------------------------------------------- */
+
+
+
+
+@media only screen and (max-width: 1440px) {
+	
+  .ECA-FTA-logo {
+/*    float: left;
+margin: 9px 255px 57px -33px !important;
+    height: 0px;*/
+  }
+	}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+	
+	.tmenubox {
+  padding: 65px 0px;
+}
+	
+	 
+.ECA-FTA-logo h2 img {
+  width: 76%;
+  height: 73%;
+  margin: 0px 0px 0px 0px;
+}
+	
+	.ECA-FTA-logo a {
+  border: 0px !important;
+  margin: 0px;
+  padding: 0px;}
+
+						 
+.bigbns0611 {
+  background-position: 76% 2%;
+ 
+  background-repeat: no-repeat;
+  background-size: 107% 100%;
+  height: 236px;
+  margin: 0px auto 0px auto;
+}
+  .ECA-FTA-logo {
+    float: left;
+    margin: 7px 255px 46px -33px !important;
+    height: 0px;
+  }
+}
+
+@media all and (max-width : 768px) {
+	
+	
+
+  .bigbns0611 {
+ background-position: 100% 0% !important;
+    background-repeat: no-repeat;
+    background-size: 120% 100% !important;
+    height: 100px;
+    margin: 0px auto;}
+			  
+.ECA-FTA-logo {/*--mb--*/
+float: left;
+    margin: 20px auto 49px !important;
+    width: 100%;
+  }
+
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+	        display: block;
+        background-color: #e6f5ff;
+        padding: 0px 20px 3px 27px;
+        color: #1b3055;
+        font-size: 1.25rem; /* 20px */
+        text-decoration: none;
+        border: none;
+        font-weight: bold;
+        line-height: 43px;
+    }
+
+	.toggle:hover {
+		/*background-color: #000000;*/
+	}
+
+	.toggle:focus {
+		outline: 2px solid #4958b9;
+		outline-offset: 2px;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+	
+	nav .f_right {
+    border-right: none;
+    line-height: 14px;
+    margin: 17px 0px 0px 0px;
+    height: 41px;
+    padding: 0px 18px 0px 0px;
+}
+	nav .b_right {
+    border-right: none;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		/*background-color: #000000;*/
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+	padding: 30px 20px;
+    font-size: 1.0625rem; /* 17px */
+    line-height: 7px;
+  }
+  nav .f_right > a {
+        background-image: url(../images/arrow-down.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 78px 14px;
+       
+    }
+	.sec_k {
+  width: 0px;
+  margin: -18px 0px 8px 112px;
+}
+	.sec_k li {
+  width: 165px;
+  padding: 2px;
+  background-color: #fff;
+  background-color: #f9fcff;
+}
+	nav .navb{margin: 0px auto;
+  }
+    .tmenubox {
+        padding: 0px 0px 0px 0px;
+        height: 114px;
+    }
+	
+	
+	nav a {
+    display: block;
+    padding: 3px 20px 16px;
+    color: #114295;
+    font-weight: bold;
+    font-size: 1.25rem; /* 20px */
+    text-decoration: none;
+   
+}
+	
+	
+  nav ul ul {/*-------------------mb--------------*/
+display: none;
+    position: absolute;
+    top: 43px;
+    background-color: #e2efff;
+    width: 273px;
+    margin: 0px 0px 8px 105px;
+height: auto;
+  }
+
+	.vtop{    color: #000000 !important;
+    
+}
+	.dro-down {/*---------------mb----------------*/
+    background-image: url(../images/arrow-down.svg);
+    background-position: 62% center;
+    background-repeat: no-repeat;
+    background-size: 12px 8px;
+    padding-right: 40px;
+}
+	
+	
+	
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		/*background-color: #212121; */
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
