@@ -886,7 +886,7 @@
                             <!------註:文章------------------------p1------>
 
                             <div id="S-1" class="w3-container city cent-t3">
-                                <h2 class="cent-t">關於臺星經濟夥伴協定ASTEP</h2>
+                                <h2 class="cent-t">關於臺星經濟夥伴協定ASTEP</h3>
 
 
                                 <div class="data_img_left">
@@ -960,7 +960,7 @@
                             <!------註:文章------------------------p2  子項--1---->
 
                             <div id="A1" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">壹、貨品貿易</h2>
+                                <h2 class="cent-t">壹、貨品貿易</h3>
                                 <div class="data_img_left">
 
 
@@ -1047,7 +1047,7 @@
                             <!------註:文章------------------------p2  子項---2--->
 
                             <div id="A2" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">貳、投資及服務貿易相關章節</h2>
+                                <h2 class="cent-t">貳、投資及服務貿易相關章節</h3>
 
                                 <div class="data_img_left">
 
@@ -1130,7 +1130,7 @@
 
 
                             <div id="A3" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">參、法規調和與自由化</h2>
+                                <h2 class="cent-t">參、法規調和與自由化</h3>
                                 <div class="data_img_left">
 
 
@@ -1188,7 +1188,7 @@
 
 
                             <div id="A4" class="w4-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">肆、合作議題</h2>
+                                <h2 class="cent-t">肆、合作議題</h3>
 
 
 
@@ -1240,7 +1240,7 @@
                             </div>
 
                             <div id="A5" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">伍、體制性及爭端解決</h2>
+                                <h2 class="cent-t">伍、體制性及爭端解決</h3>
                                 <div class="data_img_left">
 
 
@@ -1260,7 +1260,7 @@
 
 
                             <div id="B1" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">協定文本</h2>
+                                <h2 class="cent-t">協定文本</h3>
                                 <div class="data_img_left">
 
 
@@ -1320,7 +1320,7 @@
 
 
                             <div id="B2" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 3A：新加坡關稅減讓表</h2>
+                                <h2 class="cent-t">附件 3A：新加坡關稅減讓表</h3>
                                 <div class="data_img_left">
 
 
@@ -1865,7 +1865,7 @@
 
 
                             <div id="B3" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 3B：我國關稅減讓表</h2>
+                                <h2 class="cent-t">附件 3B：我國關稅減讓表</h3>
                                 <div class="data_img_left">
 
 
@@ -2443,7 +2443,7 @@
                             </div>
 
                             <div id="B4" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 4A：重製品</h2>
+                                <h2 class="cent-t">附件 4A：重製品</h3>
                                 <div class="data_img_left">
 
 
@@ -3000,7 +3000,7 @@
                             </div>
 
                             <div id="B5" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 4B：產品特定原產地規則</h2>
+                                <h2 class="cent-t">附件 4B：產品特定原產地規則</h3>
                                 <div class="data_img_left">
 
 
@@ -3516,7 +3516,7 @@
                             </div>
 
                             <div id="B6" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 4C：委外加工適用產品列表</h2>
+                                <h2 class="cent-t">附件 4C：委外加工適用產品列表</h3>
                                 <div class="data_img_left">
 
 
@@ -4131,7 +4131,7 @@
 
 
                             <div id="B7" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 4D：有關原產地之關務程序政府主管機關</h2>
+                                <h2 class="cent-t">附件 4D：有關原產地之關務程序政府主管機關</h3>
                                 <div class="data_img_left">
 
 
@@ -4160,7 +4160,7 @@
 
 
                             <div id="B8" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 4E：原產地聲明書</h2>
+                                <h2 class="cent-t">附件 4E：原產地聲明書</h3>
                                 <div class="data_img_left">
 
 
@@ -4260,7 +4260,7 @@
                             </div>
 
                             <div id="B9" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 7：技術性貿易障礙協調人</h2>
+                                <h2 class="cent-t">附件 7：技術性貿易障礙協調人</h3>
                                 <div class="data_img_left">
 
 
@@ -4290,7 +4290,7 @@
                             </div>
 
                             <div id="B10" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 8A：電信服務業</h2>
+                                <h2 class="cent-t">附件 8A：電信服務業</h3>
                                 <div class="data_img_left">
 
 
@@ -4485,7 +4485,7 @@
                             </div>
 
                             <div id="B11" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 8B：不符合措施</h2>
+                                <h2 class="cent-t">附件 8B：不符合措施</h3>
                                 <div class="data_img_left">
 
 
@@ -4853,7 +4853,7 @@
 
 
                             <div id="B12" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 9：徵收</h2>
+                                <h2 class="cent-t">附件 9：徵收</h3>
                                 <div class="data_img_left">
 
 
@@ -4891,7 +4891,7 @@
                             </div>
 
                             <div id="B13" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 12A</h2>
+                                <h2 class="cent-t">附件 12A</h3>
                                 <div class="data_img_left">
 
 
@@ -6136,7 +6136,7 @@
                             </div>
 
                             <div id="B14" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 12B</h2>
+                                <h2 class="cent-t">附件 12B</h3>
                                 <div class="data_img_left">
 
 
@@ -6176,7 +6176,7 @@
 
 
                             <div id="B15" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 12C：政府採購聯絡點</h2>
+                                <h2 class="cent-t">附件 12C：政府採購聯絡點</h3>
                                 <div class="data_img_left">
 
 
@@ -6200,7 +6200,7 @@
 
 
                             <div id="B16" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 15：標準程序規則</h2>
+                                <h2 class="cent-t">附件 15：標準程序規則</h3>
                                 <div class="data_img_left">
 
 
@@ -6327,7 +6327,7 @@
                             </div>
 
                             <div id="B17" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 16：第16.4條所指之相關機關</h2>
+                                <h2 class="cent-t">附件 16：第16.4條所指之相關機關</h3>
                                 <div class="data_img_left">
 
 
@@ -6352,7 +6352,7 @@
                             </div>
 
                             <div id="B18" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">附件 17：聯絡點</h2>
+                                <h2 class="cent-t">附件 17：聯絡點</h3>
                                 <div class="data_img_left">
 
 
@@ -6378,7 +6378,7 @@
 
                             <div id="NZ-3" class="w3-container city cent-t3 " style="display: none">
 
-                                <h2 class="cent-t">ASTEP Text</h2>
+                                <h2 class="cent-t">ASTEP Text</h3>
 
                                 <div class="data_img_left">
 
@@ -6464,7 +6464,7 @@
 
                             <div id="C1" class="w3-container city cent-t3 " style="display: none">
 
-                                <h2 class="cent-t">ASTEP Text</h2>
+                                <h2 class="cent-t">ASTEP Text</h3>
 
                                 <div class="data_img_left">
 
@@ -6548,7 +6548,7 @@
 
 
                             <div id="C2" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">Annex 3A</h2>
+                                <h2 class="cent-t">Annex 3A</h3>
                                 <div class="data_img_left2">
 
 
@@ -6590,7 +6590,7 @@
 
 
                             <div id="C3" class="w3-container city cent-t3" style="display: none">
-                                <h2 class="cent-t">Annex 3B</h2>
+                                <h2 class="cent-t">Annex 3B</h3>
                                 <div class="data_img_left2">
 
 
@@ -6630,7 +6630,7 @@
 
 
                         <div id="C4" class="w3-container city cent-t3" style="display: none">
-                            <h2 class="cent-t">Annex 4A Remanufactured Goods</h2>
+                            <h2 class="cent-t">Annex 4A Remanufactured Goods</h3>
                             <div class="data_img_left2">
 
 
@@ -6672,7 +6672,7 @@
 
 
                     <div id="C5" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 4B</h2>
+                        <h2 class="cent-t">Annex 4B</h3>
                         <div class="data_img_left2">
 
 
@@ -6723,7 +6723,7 @@
 
 
                     <div id="C6" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 4C List of Goods Eligible for Outward Processing</h2>
+                        <h2 class="cent-t">Annex 4C List of Goods Eligible for Outward Processing</h3>
                         <div class="data_img_left2">
 
 
@@ -6767,7 +6767,7 @@
                     </div>
 
                     <div id="C7" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 4D Competent Government Authority for Customs Procedures Relating to Origin</h2>
+                        <h2 class="cent-t">Annex 4D Competent Government Authority for Customs Procedures Relating to Origin</h3>
                         <div class="data_img_left2">
 
 
@@ -6806,7 +6806,7 @@
 
 
                     <div id="C8" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 4E Template for Declaration of Origin</h2>
+                        <h2 class="cent-t">Annex 4E Template for Declaration of Origin</h3>
                         <div class="data_img_left2">
 
 
@@ -6849,7 +6849,7 @@
 
 
                     <div id="C9" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 7 Coordinators for Technical Barriers to Trade</h2>
+                        <h2 class="cent-t">Annex 7 Coordinators for Technical Barriers to Trade</h3>
                         <div class="data_img_left2">
 
 
@@ -6889,7 +6889,7 @@
 
 
                     <div id="C10" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 8A Telecommunications Services</h2>
+                        <h2 class="cent-t">Annex 8A Telecommunications Services</h3>
                         <div class="data_img_left2">
 
 
@@ -6928,7 +6928,7 @@
 
 
                     <div id="C11" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 8B</h2>
+                        <h2 class="cent-t">Annex 8B</h3>
                         <div class="data_img_left2">
 
 
@@ -6983,7 +6983,7 @@
 
 
                     <div id="C12" class="w3-container city cent-t3" style="display: none;">
-                        <h2 class="cent-t">Annex 9 Expropriation</h2>
+                        <h2 class="cent-t">Annex 9 Expropriation</h3>
                         <div class="data_img_left2">
 
 
@@ -7022,7 +7022,7 @@
 
 
                     <div id="C13" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 12A Combined</h2>
+                        <h2 class="cent-t">Annex 12A Combined</h3>
                         <div class="data_img_left2">
 
 
@@ -7060,7 +7060,7 @@
 
 
                     <div id="C14" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 12B Combined</h2>
+                        <h2 class="cent-t">Annex 12B Combined</h3>
                         <div class="data_img_left2">
 
 
@@ -7103,7 +7103,7 @@
 
 
                     <div id="C15" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 12C Contact Points for Government Procurement</h2>
+                        <h2 class="cent-t">Annex 12C Contact Points for Government Procurement</h3>
                         <div class="data_img_left2">
 
 
@@ -7141,7 +7141,7 @@
 
 
                     <div id="C16" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 15 Model Rules of Procedure</h2>
+                        <h2 class="cent-t">Annex 15 Model Rules of Procedure</h3>
                         <div class="data_img_left2">
 
 
@@ -7178,7 +7178,7 @@
 
 
                     <div id="C17" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 16 Relevant Authorities for Paragraph 5 of Article 16.4 (Taxation)</h2>
+                        <h2 class="cent-t">Annex 16 Relevant Authorities for Paragraph 5 of Article 16.4 (Taxation)</h3>
                         <div class="data_img_left2">
 
 
@@ -7220,7 +7220,7 @@
 
 
                     <div id="C18" class="w3-container city cent-t3" style="display: none">
-                        <h2 class="cent-t">Annex 17 Contact Points</h2>
+                        <h2 class="cent-t">Annex 17 Contact Points</h3>
                         <div class="data_img_left2">
 
 
