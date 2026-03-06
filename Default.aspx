@@ -321,7 +321,7 @@
                             
                         </div>
                         <div class="bg-light text-center p-4 fta-con-ni">
-                            <h2 class="fw-bold mb-0 flag-logo-3">臺尼（尼加拉瓜）停止施行</h3> 
+                            <h3 class="fw-bold mb-0 flag-logo-3">臺尼（尼加拉瓜）停止施行</h3> 
                         </div>
                     </div>
                 </div>-->
