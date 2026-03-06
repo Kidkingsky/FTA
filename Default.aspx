@@ -189,7 +189,7 @@
                             <img class="img-fluid" src="images/banners/country-2.jpg" alt="瓜地馬拉">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-2">臺瓜（瓜地馬拉）</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-2">臺瓜（瓜地馬拉）</h3>
                         </div>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                             <img class="img-fluid" src="images/banners/country-6b.jpg" alt="貝里斯">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-6">臺貝（貝里斯）</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-6">臺貝（貝里斯）</h3>
                         </div>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                             <img class="img-fluid" src="images/banners/country-9b-0214.jpg" alt="紐西蘭">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-9">臺紐（紐西蘭)</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-9">臺紐（紐西蘭)</h3>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                             <img class="img-fluid" src="images/banners/country-10.jpg" alt="新加坡">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-10">臺星（新加坡)</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-10">臺星（新加坡)</h3>
                         </div>
                     </div>
                 </div>
@@ -255,7 +255,7 @@
                             <img class="img-fluid" src="images/banners/country-7.jpg" alt="巴拉圭">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-7">臺巴（巴拉圭）</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-7">臺巴（巴拉圭）</h3>
                         </div>
                     </div>
                 </div>
@@ -282,7 +282,7 @@
                             <img class="img-fluid" src="images/banners/country-5.jpg" alt="馬紹爾">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-5">臺馬（馬紹爾）</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-5">臺馬（馬紹爾）</h3>
                         </div>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
                             <img class="img-fluid" src="images/banners/country-1.jpg" alt="巴拿馬">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-1">臺巴（巴拿馬）</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-1">臺巴（巴拿馬）</h3>
                         </div>
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                             
                         </div>
                         <div class="bg-light text-center p-4 fta-con-ni">
-                            <h2 class="fw-bold mb-0 flag-logo-3">臺尼（尼加拉瓜）停止施行</h5> 
+                            <h2 class="fw-bold mb-0 flag-logo-3">臺尼（尼加拉瓜）停止施行</h3> 
                         </div>
                     </div>
                 </div>-->
@@ -335,7 +335,7 @@
                             <img class="img-fluid" src="images/banners/country-11.jpg" alt="ECFA">
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h2 class="fw-bold mb-0 flag-logo-11">兩岸經濟合作協議（ECFA）</h2>
+                            <h3 class="fw-bold mb-0 flag-logo-11">兩岸經濟合作協議（ECFA）</h3>
                         </div>
                     </div>
                 </div>
