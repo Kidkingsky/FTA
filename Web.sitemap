@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+
+  <!-- 根節點 -->
+  <siteMapNode url="~/Default.aspx" title="首頁" description="ECA/FTA經濟合作協定與自由貿易協定資訊">
+
+    <!-- 國家/地區協議頁面 -->
+    <siteMapNode url="~/FTA_Guatemala.aspx" title="臺瓜（瓜地馬拉）" description="臺灣與瓜地馬拉自由貿易協定" />
+
+    <siteMapNode url="~/FTA_Belize.aspx" title="臺貝（貝里斯）" description="臺灣與貝里斯經濟合作協定" />
+
+    <siteMapNode url="~/FTA_NewZealand.aspx" title="臺紐（紐西蘭）" description="臺灣與紐西蘭經濟合作協定 ANZTEC" />
+
+    <siteMapNode url="~/FTA_Singapore.aspx" title="臺星（新加坡）" description="臺灣與新加坡經濟夥伴協定 ASTEP" />
+
+    <siteMapNode url="~/FTA_Paraguay.aspx" title="臺巴（巴拉圭）" description="臺灣與巴拉圭經濟合作協定" />
+
+    <siteMapNode url="~/FTA_Eswatini.aspx" title="臺史（史瓦帝尼）" description="臺灣與史瓦帝尼經濟合作協定" />
+
+    <siteMapNode url="~/FTA_Marshall.aspx" title="臺馬（馬紹爾）" description="臺灣與馬紹爾經濟合作協定" />
+
+    <siteMapNode url="~/FTA_Panama.aspx" title="臺巴（巴拿馬）" description="臺灣與巴拿馬自由貿易協定" />
+
+    <siteMapNode url="~/FTA_SalvadoryHonduras.aspx" title="薩爾瓦多和宏都拉斯" description="臺灣與薩爾瓦多和宏都拉斯經濟合作協定" />
+
+    <!-- 網站導覽頁面 -->
+    <siteMapNode url="~/Sitemap.aspx" title="網站導覽" description="網站完整架構導覽" />
+
+  </siteMapNode>
+
+</siteMap>
